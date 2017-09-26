@@ -1,3 +1,7 @@
+---
+title: About the Founder
+---
+
 ### Luigi Patruno, Founder and Tutor
 
 I have a passion for empowering students to see they are capable of learning anything. My favorite moment - the "Aha!" moment, that intensely satisfying initial moment of clarity and understanding. I love to help students have as many of those moments as possible.

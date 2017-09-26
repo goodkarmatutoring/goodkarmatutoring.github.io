@@ -1,3 +1,6 @@
+---
+title: Good Karma Tutoring
+---
 ### Welcome to Good Karma Tutoring!
 
 At Good Karma Tutoring we offer tutoring services for individuals in the greater New York City area. Our goal is to help our students succeed through detailed assessment and personalized instruction. Whether preparing for college entrance exams, taking the step to graduate school, or looking to ace a class, we can help you.
