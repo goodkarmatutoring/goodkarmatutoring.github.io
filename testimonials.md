@@ -22,4 +22,4 @@ Dan C., Student
 
 > Obviously cared about what he was doing and how much we learned, and was able to share practical knowledge and experiences. Also, very clear explanations of all of the topics.
 
-Amanda S,, Student
+Amanda S., Student
