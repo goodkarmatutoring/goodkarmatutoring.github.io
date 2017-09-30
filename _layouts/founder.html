@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+
+{% seo %}
+    <meta name="description" content="{{ page.description | default: site.description | default: site.github.project_tagline }}"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <link rel="stylesheet" href="/simple-grid.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+    <style>
+      h1, h2, h3, h4, h5, h6 { margin-top: 2rem; margin-bottom: 1rem; font-weight: normal; color: #159957; }
+    </style>
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
+      <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+
+      <a href="/" class="btn">Home</a>
+      <a href="founder" class="btn">About the Founder</a>
+      <a href="services" class="btn">Services</a>
+      <a href="testimonials" class="btn">Testimonials</a>
+      <a href="contact" class="btn">Contact Us</a>
+    </section>
+
+    <div class="container">
+      <div class="row">
+        <h3>Luigi Patruno, Founder & Tutor</h3>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <img src="luigi.jpg" style="max-width:100%; max-height:100%; border-radius: 6px;">
+        </div>
+        <div class="col-8">
+          I have a passion for empowering students to see they are capable of learning anything. My favorite moment - the "Aha!" moment, that intensely satisfying initial moment of clarity and understanding. I love to help students have as many of those moments as possible.
+
+<p>I often joke that I first started tutoring in the third grade, when my classmates would call me immediately afterschool to help them with our math homework. As I continued through the educational system, I began to see that people's math "struggles" are often due to a history of bad experiences in the classroom. These experiences have left the student convinced he or she doesn't have "a math brain." My passion and joy is demonstrating to students that this just isn't the case; they can master mathematical ideas and excel in their classes and exams. Everyone can learn, some just need a little extra help along the way.</p>
+
+<p>Academically, I have studied Mathematics and Computer Science at the undergraduate and graduate level. Professionally, I have tutored students in  math, science, and logic courses for over 12 years. I also teach graduate level courses in statistics and computer science.</p>
+
+<p>If you are struggling with mathematics and want to succeed, <a href="contact">contact us</a> and we can discuss any questions you might have. I look forward to learning with you!</p>
+        </div>
+      </div>
+
+
+    <section class="main-content">
+
+      <footer class="site-footer">
+        <center><span class="site-footer-credits">&copy 
+        	<script type="text/javascript">document.write(new Date().getFullYear());</script> 
+        Good Karma Tutoring</span></center>
+      </footer>
+    </section>
+
+    {% if site.google_analytics %}
+      <script type="text/javascript">
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', '{{ site.google_analytics }}', 'auto');
+        ga('send', 'pageview');
+      </script>
+    {% endif %}
+  </body>
+</html>
