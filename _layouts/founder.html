@@ -7,6 +7,7 @@
     <meta name="description" content="{{ page.description | default: site.description | default: site.github.project_tagline }}"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
+    <link rel="stylesheet" href="/simple-grid.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -28,12 +29,32 @@
       <a href="contact" class="btn">Contact Us</a>
     </section>
 
+    <div class="container">
+      <div class="row">
+        <h2>Luigi Patruno, Founder &amp; Tutor</h2>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <img src="luigi.jpg" style="max-width:100%; max-height:100%; border-radius: 6px;">
+        </div>
+        <div class="col-8">
+          I have a passion for empowering students to see they are capable of learning anything. My favorite moment - the "Aha!" moment, that intensely satisfying initial moment of clarity and understanding. I love to help students have as many of those moments as possible.
+
+          <p>I often joke that I first started tutoring in the third grade, when my classmates would call me immediately after school to help them with our math homework. As I continued through the educational system, I began to see that people's math "struggles" are often due to a history of bad experiences in the classroom. These experiences have left the student convinced he or she doesn't have "a math brain." My passion and joy is demonstrating to students that this just isn't the case; they can master mathematical ideas and excel in their classes and exams. Everyone can learn, some just need a little extra help along the way.</p>
+
+          <p>Academically, I have studied Mathematics and Computer Science at the undergraduate and graduate level (BS &amp; MS degrees). Professionally, I have tutored students in math, science, and logic courses for over 12 years. Currently, I teach several graduate level courses in statistics and computer science at university in New York City.
+          </p>
+
+          <p>If you are struggling with mathematics and want to succeed, <a href="contact">contact us</a> and we can discuss any questions you might have. I look forward to learning with you!</p>
+        </div>
+      </div>
+
+
     <section class="main-content">
-      {{ content }}
 
       <footer class="site-footer">
         <center><span class="site-footer-credits">&copy 
-          <script type="text/javascript">document.write(new Date().getFullYear());</script> 
+        	<script type="text/javascript">document.write(new Date().getFullYear());</script> 
         Good Karma Tutoring &middot; (917) 960-2082 &middot; goodkarmatutoring@gmail.com</span></center>
       </footer>
     </section>
