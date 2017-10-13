@@ -7,6 +7,7 @@
     <meta name="description" content="{{ page.description | default: site.description | default: site.github.project_tagline }}"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
+    <link rel="stylesheet" href="/simple-grid.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -28,14 +29,37 @@
       <a href="contact" class="btn">Contact Us</a>
     </section>
 
-    <section class="main-content">
-      {{ content }}
+    <div class="container">
+      <div class="row" style="text-align: center">
+        <h1>{{page.header}}</h1>
+      </div>
 
-      <iframe class="airtable-embed" src="https://airtable.com/embed/shrnlrYDBYiltyTBr?backgroundColor=yellow" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+      <div class="row" style="text-align: center">
+        <div class="col-12">
+          We offer exceptional math and science tutoring for students of all ages. By understanding a student's current abilities, needs, and goals, we are able to craft individualized study plans and adapt learning strategies. Whether you're preparing for college entrance exams, looking to ace your calculus class, or just need some extra help studying for midterms, our tutors are here for you.
+        </div>
+      </div>
+
+      <div class="row" style="text-align: center">
+        <div class="col-4">
+          <h2>Personalized</h2>
+          Each student receives an individualized program to help them become competent and confident in their area of study. Helping students identify and resolve their barriers to learning is the cornerstone of our approach.
+      </div>
+      <div class="col-4">
+          <h2>Flexible</h2>
+          We understand that there aren't enough hours in the day. That's why we offer in-person tutoring in the greater New York City area and online tutoring serving students all over the world.
+      </div>
+      <div class="col-4">
+          <h2>Proven</h2>
+          We have a track record of helping students from middle school all the way to adults returning to graduate school. We welcome students of all ages and experience levels.
+      </div>
+      </div>
+
+    <section class="main-content">
 
       <footer class="site-footer">
         <center><span class="site-footer-credits">&copy 
-          <script type="text/javascript">document.write(new Date().getFullYear());</script> 
+        	<script type="text/javascript">document.write(new Date().getFullYear());</script> 
         Good Karma Tutoring &middot; (917) 960-2082 &middot; goodkarmatutoring@gmail.com</span></center>
       </footer>
     </section>
