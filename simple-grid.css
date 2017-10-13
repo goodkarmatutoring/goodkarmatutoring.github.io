@@ -6,7 +6,9 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);
 
 .container h1, .container h2, .container h3, .container h4, .container h5, .container h6 { margin-top: 2rem; margin-bottom: 1rem; font-weight: normal; color: #159957; }
-
+.container blockquote { margin-left: 0; color: #819198;  }
+.container blockquote > :first-child { margin-top: 0; }
+.container blockquote > :last-child { margin-bottom: 0; }
 /* ==== GRID SYSTEM ==== */
 
 .container {
